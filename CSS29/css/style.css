@@ -1,0 +1,20 @@
+.block {
+    /* width: 400px;
+    height: ;
+*/
+    background: gray;
+    max-width: 1000px;
+    min-width: 800px;
+
+    max-height: 100px;
+    min-height: 800px;
+}
+
+.inline {
+    width: 1000px;
+    height: 100px;
+
+}
+.img{
+
+}

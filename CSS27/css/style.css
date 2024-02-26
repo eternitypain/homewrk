@@ -1,0 +1,12 @@
+/* приоритет 10 */
+.block{
+    width: 500px;
+    height: 500px;
+    background: #000;
+}
+
+/* приоритет 1+10=11 */
+div.block{
+    background: purple; 
+    /*Приоритет 10 000 из за импотант */
+}
