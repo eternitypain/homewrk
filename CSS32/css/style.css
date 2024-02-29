@@ -1,0 +1,33 @@
+.block,
+.inline {
+    background: pink;
+}
+
+
+
+
+
+.block {
+    /* border: 12px double #000;
+    border-top: 15px solid #ff7167;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: red;
+
+    border-bottom-color: burlywood; */
+
+    /* border: 1px solid #000;
+    /* border-radius: 3px; */
+    /* border-top-right-radius: 30px; */ 
+
+    outline: 15px solid #ff7167;
+}
+
+.inline {
+    border: 12px double #000;
+}
+
+.img {
+    border-radius: 30px;
+    border: 10px solid red;
+}
