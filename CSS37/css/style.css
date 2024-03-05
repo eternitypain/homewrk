@@ -1,0 +1,37 @@
+body {
+    font-size: 40px;
+    background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    margin: 5vw;
+    height: 50vh;
+    box-shadow: 0 0.5vw 3vw black;
+    border-radius: 3vw;
+    background: #fff;
+}
+
+/*                           */
+
+.block {
+    background: url(../baby-monkey-pictures-2snzm6ivf3bxcwy0.jpg) 0% 0%/ cover no-repeat fixed;
+
+    /* background-color: #000000; */
+
+
+    /* background-image: url(../baby-monkey-pictures-2snzm6ivf3bxcwy0.jpg); */
+
+    /* background-repeat: repeat; */
+
+    /* background-position: 50% 50%; */
+
+/* background-attachment: local; */
+overflow: auto;
+
+/* background-size: 400px auto; */
+
+}
