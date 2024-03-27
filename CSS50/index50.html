@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БЭМ</title>
+</head>
+
+<body>
+    <!-- БЭМ -->
+    <!-- Блок Элемент Модификатор -->
+    <!-- ================================================================================================ -->
+    
+    <!-- Блок - независимый компонент -->
+    <!-- Название блока отвечает на вопрос "Что это?" -->
+
+    <div class="header"></div>
+    <div class="logo"></div>
+    <div class="main-title"></div>
+
+    <div class="sidebar">
+        <div class="author"></div>
+        <div class="ad"></div>
+    </div>
+
+    <!-- Блок можно переместить -->
+    <!-- Блок можно переиспользовать -->
+    <!-- Поэтому не должно быть позиционирования -->
+    <!-- ================================================================================================ -->
+
+    <!-- Элемент - неотделимая частица блока -->
+    <!-- Название элемента отвечает на вопрос "Что это?" -->
+
+    <div class="header">
+        <div class="header__logo"></div>
+        <div class="header__user-nav"></div>
+    </div>
+    
+    <div class="button"></div>
+    
+    <!-- Необязателен -->
+    <!-- Не может быть в отрыве от блока -->
+    <!-- Не может быть элемент элемента -->
+
+    <div class="header">
+        <div class="header__logo"></div>
+        <div class="header__contacts">
+            <div class="header__contacts-tel"></div>
+            <div class="header__email"></div>
+            <div class="header__socials"></div>
+        </div>
+    </div>
+    <!-- ================================================================================================ -->
+
+    <!-- Модификатор - дополнительная характеристика/состояние элемента или блока -->
+    <!-- Название модификатора отвечает на вопрос "Какой?" -->
+
+    <div class="header header--followed"></div>
+    <div class="search-form">
+        <div class="search-form__button search-form__button--active"></div>
+    </div>
+
+    <!-- Не может самостоятельно существовать в отдельном теге -->
+    <!-- Существует 2 вариации записи модификаторов -->
+    <!-- Существует 2 вариации синтаксиса модификаторов -->
+
+    <div class="button button--color--blue"></div>
+    <div class="button button--color--red"></div>
+    <div class="button button--size--big"></div>
+
+    <div class="blog-card blog-card--active"></div>
+    <div class="blog-card blog-card_active"></div>
+
+</body>
+
+</html>
