@@ -1,0 +1,13 @@
+@font-face{
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/ButterflyKids-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.text{
+    font-family: 'Roboto';
+}
