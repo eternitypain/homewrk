@@ -1,0 +1,82 @@
+body {
+    background-color: #1d1d1f;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 2em;
+    margin-bottom: 100px;
+    font-size: inherit;
+}
+
+.button {
+    display: block;
+    background-color: #555;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: inherit;
+    color: inherit;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+/* ======================================================== */
+
+.link:hover{
+    background: rgb(122, 238, 122);
+}
+
+.block__title:hover{
+    color: red;
+}
+
+
+.button:active{
+    background: rgb(124, 124, 248);
+}
+
+.input:focus{
+    box-shadow:0 0 10px #23dfa0;
+}
+
+.list__item:first-child{
+    color: rgb(86, 240, 86);
+}
+
+.list__item:last-child{
+    color: rgb(101, 101, 238);
+}
+
+.list__item:nth-child(odd){
+    color: rgb(248, 197, 102);
+}
+
+.list__item:nth-child(even){
+    color: rgb(233, 89, 113);
+}
