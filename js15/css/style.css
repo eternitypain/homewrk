@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    background-color: #e7ae31;
+    border: 1px solid rgb(61, 255, 126);
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}

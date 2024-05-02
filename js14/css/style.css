@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.btn {
+    margin-bottom: 5px;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    background: #0084ff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.text {
+    display: inline-block;
+    transition: transform .5s;
+}
+
+.red {
+    color: red;
+}
+
+
+.move {
+    transform: translateX(10vh);
+}
