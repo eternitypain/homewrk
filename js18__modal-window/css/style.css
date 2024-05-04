@@ -10,7 +10,7 @@ body {
 }
 
 .body--fixed {
-    /* overflow-y: hidden; */
+    overflow-y: hidden; 
 }
 
 
