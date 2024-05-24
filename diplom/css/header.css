@@ -1,0 +1,162 @@
+.header {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    background: var(--general-bg);
+}
+
+
+.header__top-inner {
+    min-height: 128px;
+
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: relative;
+    padding: 0 20px;
+    
+}
+
+.header__logo {
+    width: 100px;
+    height: 70.65px;
+    left: 370px;
+    right: 1450px;
+    top: 20px;
+    bottom: 19.35px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 63px;
+    
+}
+
+
+.curse {
+    margin-right: 40px;
+    margin-left: 6.15px;
+}
+
+.nav__list,
+.nav__list-right {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    
+}
+
+.nav__list-right {
+    justify-content: flex-end;
+    
+}
+
+.burger {
+    margin-right: 0px;
+    
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav__item:first-child {
+    margin-right: 0;
+}
+
+
+
+.button__list-right {
+    margin-right: 9px;
+}
+
+
+.burger__right {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+
+.right__logo-entrance {
+    position: absolute;
+    top: 50%;
+    right: 1;
+    
+    transform: translateY(-50%);
+}
+
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.burger__right {
+    margin-right: 20px;
+    
+}
+
+
+.flex-container-city {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    width: 100%;
+    
+}
+
+.list__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burger__right-city {
+    
+}
+
+
+.button__list-right,
+.burger__right-city {
+    margin: 0;
+    
+}
+
+.nav__link-right-city {
+    margin-left: 9px;
+    margin-right: 10px;
+    text-decoration-line: underline;
+    
+}
+
+
+.number {
+    margin-left: 40px;
+    color: #00093C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.logo__entrance {
+    margin-left: 34px; 
+}
+
+.entrance{
+    margin-left: 8.72px;
+}
