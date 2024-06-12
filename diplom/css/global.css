@@ -1,0 +1,405 @@
+:root {
+    --general-text: #000000;
+    --accent-text: #FFFFFF;
+    --general-bg: #F6F7F9;
+    --accent-bg: #00093C;
+    --accent-color: #F7941D;
+    --accent-color-2: #00093C;
+    /* --input-color: #AC907A;
+    --transition: all .4s;
+    --border-radius: 20px; */
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+    overflow-x:hidden;
+}
+
+
+
+.body {
+    font-family: "Montserrat";
+    flex: nowrap;
+}
+
+
+
+
+.wrapper {
+    /* min-height: 100%; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.main {
+    flex-grow: 1;
+}
+
+.hero {
+    display: flex;
+    max-height: 480px;
+    height: 100%;
+    color: var(--accent-text);
+    background: var(--accent-bg);
+}
+
+
+
+.container {}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.program__text {
+    flex: 1;
+}
+
+
+
+
+.program__text {}
+
+.program__title {}
+
+
+
+.title__inner {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 39px;
+}
+
+.title_two {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-top: 11px;
+    margin-bottom: 37px;
+}
+
+.item {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+
+}
+
+.item__inner-hour {}
+
+.program__text-inner {}
+
+.price {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 33px;
+}
+
+.first__lesson {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.trial__lesson {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.button__hero__inner {
+    display: flex;
+    max-width: 286px;
+    height: 50px;
+    width: 100%;
+    background: #F7941D;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.trial__button {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: rgb(255, 255, 255);
+    transition: background-color .5s;
+    margin-bottom: 30px;
+}
+
+.chess {
+    position: absolute;
+    align-self: flex-end;
+    max-width: 517px;
+    height: 480px;
+    width: 100%;
+}
+
+
+
+.items-container {
+    display: flex;
+    margin-bottom: 42px;
+}
+
+.item {
+    margin-right: 30px;
+}
+
+.item.item__inner-hour {}
+
+
+.trial__button:hover {
+    background-color: #FFAE4D;
+}
+
+/* ================================================== */
+
+.main__program {
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+
+.title__course-inner {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+
+}
+
+.school__chess {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text_inner-chess {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.program__course {
+    display: flex;
+    position: absolute;
+    min-width: 350px;
+    max-height: 137.84px;
+    height: 100%;
+    width: 100%;
+
+
+    margin-top: 100px;
+
+
+}
+
+.union__inner-course {
+    /* style text block gradient */
+    display: flex;
+    position: absolute;
+
+
+}
+
+.text__inner-course {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.img__sova {
+    position: absolute;
+    display: flex;
+    max-width: 168px;
+    max-height: 188.05px;
+    height: 100%;
+    width: 100%;
+    margin-top: 185.5px;
+
+}
+
+
+
+.program__course-text {
+
+    display: inline-flex;
+    align-items: start;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+
+
+.inner__course {
+    display: flex;
+    justify-content: end;
+    padding-top: 110px;
+
+}
+
+
+.list1 {
+    margin-right: 20px;
+}
+
+.list2 {
+    margin-right: 20px;
+}
+
+.list3 {
+    margin-right: 20px;
+}
+
+.img__course-inner {
+    width: 25.8px;
+    height: 40.42px;
+    margin-bottom: 16.58px;
+}
+
+.blackout__video {
+    background: rgb(0, 9, 60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    opacity: 0.6;
+    position: absolute;
+    width: 780px;
+    height: 436px;
+    border-radius: 20px;
+
+}
+
+
+.video__course-inner {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 780px;
+    max-height: 436px;
+    width: 100%;
+    height: 100%;
+    margin-top: 142px;
+    margin-bottom: 68px;
+    /* затемнение */
+
+
+}
+
+.video__inner-course {}
+
+.video__inner-course::before {
+    background-color: rgb(0, 9, 60);
+    opacity: 0.6;
+}
+
+.info__school {
+    display: flex;
+    justify-content: space-between;
+}
+
+.school__chess {
+    margin-bottom: 9.14px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text__info {
+    margin-bottom: 11px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.info__chess {
+    display: inline-flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.chess__inner-icon {
+    margin-bottom: 10px;
+}
+
+.text_inner-chess {
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
