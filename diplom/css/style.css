@@ -1,0 +1,359 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+@import "swiper-bundle.min.css";
+@import "header.css";
+@import "footer.css";
+
+
+
+/* =============================================== */
+.accardion__program-last {}
+
+
+
+
+.accordion-list__item {
+    position: relative;
+    padding: 2em;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow:
+        0 0 15px 1px hsla(33, 93%, 54%, 0.5),
+        /* Оранжевый цвет с размытием */
+        0 0 15px 1px rgba(39, 169, 225, 0.5) inset;
+    /* Синий цвет с размытием */
+    margin-bottom: 20px;
+}
+
+.accordion-list__item::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 6px;
+    /* Увеличиваем радиус, чтобы градиент был за пределами элемента */
+    background: linear-gradient(90deg, hsla(33, 93%, 54%, 0.6), rgba(39, 169, 225, 0.6) 80%);
+    z-index: -1;
+    /* Помещаем градиент за элемент */
+    filter: blur(30px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion-list__item:last-child {
+    margin-bottom: 331px;
+
+}
+
+.accordion-list__control {
+    padding: 41px 30px;
+    width: 100%;
+    background: transparent;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+    font-family: Montserrat;
+    font-size: 42px;
+    line-height: 90%;
+
+    transition: var(--transition);
+}
+
+.accordion-list__item--opened .accordion-list__control {
+    padding-bottom: 20px;
+}
+
+.accordion-list__control-icon {
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.accordion-list__control-icon svg {
+    margin-left: 2px;
+}
+
+.accordion-list__control-icon path {}
+
+.accordion-list__control:hover .accordion-list__control-icon {
+    transform: rotate(45deg);
+
+}
+
+.accordion-list__control:hover .accordion-list__control-icon path {}
+
+.accordion-list__item--opened .accordion-list__control-icon {
+    transform: rotate(45deg);
+
+}
+
+.accordion-list__item--opened .accordion-list__control-icon path {}
+
+.accordion-list__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+    z-index: 1;
+}
+
+.accordion-content {
+    padding: 0 30px 40px;
+    display: flex;
+    gap: 80px;
+}
+
+.accordion-content__col:first-child {
+    max-width: 507px;
+    width: 100%;
+}
+
+.accordion-content__title {
+    text-transform: uppercase;
+    line-height: 1.6;
+    color: var(--accent-text);
+    margin-bottom: 20px;
+}
+
+.accordion-content__item {
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.accordion-content__item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.accordion-content__text {
+    max-width: 274px;
+}
+
+
+.accordion-list__control-title {
+    color: rgb(0, 9, 60);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.program__title-accordion {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 66.57px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+/* ================================================= */
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+main {}
+
+footer {}
+
+
+
+@media (max-width: 900px) {
+    .nav {
+        display: flex;
+        position: fixed;
+        inset: 0;
+        background: var(--general-bg);
+        z-index: 10;
+        padding: 100px 15px 30px;
+        flex-direction: column;
+        font-size: 24px;
+        transform: translateX(-50%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all .5s;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 15px 30px;
+        align-items: left;
+        text-align: left;
+    }
+
+    .nav__item-right-city {
+        display: none;
+    }
+
+    .list__right {
+        display: none;
+    }
+
+
+    .right__logo-entrance {
+        display: none;
+    }
+
+
+
+    .burger {
+        display: none;
+    }
+
+
+    .body--opened-menu .nav {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .burger__header-icon {
+        display: flex;
+    }
+}
+
+@media (max-width: 1700px) {
+    .swiper {
+        display: none;
+    }
+
+    .swiper-scrollbar {
+        display: none;
+    }
+
+    .inner__info-course {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1550px) {
+    .contact__footer {
+        display: none;
+    }
+
+    .footer-inner {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1250px) {
+    .chess {
+        display: none;
+    }
+
+    .hero {
+        min-height: 450px;
+        height: 100%;
+    }
+
+    .program__course {
+        display: none;
+    }
+
+    .img__sova {
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 850px) {
+    .hero {
+        min-height: 550px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .video__course-inner {
+        display: none;
+    }
+
+    .hero__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .info__school {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .techer__three {
+        display: none;
+    }
+
+    .techer__four {
+        display: none;
+    }
+
+
+    .sova__course {
+        display: none;
+    }
+
+    .text__inner-union {
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 550px) {
+    .hero {
+        min-height: 650px;
+        height: 100%;
+    }
+}
